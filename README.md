@@ -10,10 +10,13 @@ A quick and easy github badge generator using Shield.io and Simple Icons.
 
 ## Instructions
 1. Goes to the heroku site
-2. Type in the *icon name*, *label*, and *message*. 
+2. Type in the *brand name*, *label*, and *message*. 
 3. Example: 
 ![example VSCode badge](https://img.shields.io/badge/Label-Message-information?style=flat&logo=Visual-Studio-Code&logoColor=white&color=007ACC)
 ![example badge](https://img.shields.io/badge/Label-Message-information?style=flat&logo=Amazon&logoColor=white&color=FF9900)  
+
+## Note
+- If Simple Icons does not have SVG icon for input *brand name* then output won't have logo included  
 
 ## License
 ```
