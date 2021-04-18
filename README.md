@@ -11,7 +11,7 @@ A collection of badges designed for personal repositories, and I hope that all o
 ## Instructions
 1. Goes to the heroku site
 2. type in the *icon name* from Simple Icons, *message* and *label*. 
-3. Example for : https://img.shields.io/badge/Label-Message-information?style=flat&logo=Visual-Studio-Code&logoColor=white&color=007ACC  
+3. Example: ![example badge](https://img.shields.io/badge/Label-Message-information?style=flat&logo=Visual-Studio-Code&logoColor=white&color=007ACC)   
 
 ## License
 ```
