@@ -6,11 +6,11 @@
 [https://badge-generator.herokuapp.com/](https://badge-generator.herokuapp.com/)  
 
 ## About
-A collection of badges designed for personal repositories, and I hope that all of these badges can be widely accepted and used in the document of any project so that they can become more and more standard. If you also have some new ideas about badges, just open an issue. Always remember that: **More than a coder, more than a designer.**  
+A quick and easy github badge generator using Shield.io and Simple Icons.  
 
 ## Instructions
 1. Goes to the heroku site
-2. type in the *icon name* from Simple Icons, *message* and *label*. 
+2. Type in the *icon name*, *message* and *label*. 
 3. Example: ![example badge](https://img.shields.io/badge/Label-Message-information?style=flat&logo=Visual-Studio-Code&logoColor=white&color=007ACC)   
 
 ## License
