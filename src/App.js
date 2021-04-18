@@ -86,7 +86,7 @@ function App() {
 
       {/* PREVIEW SECTION */}
       <p>{preview}{errorMessage}</p>
-      <a href= {preview}><img src={preview} alt="preview github badge"></img></a>
+      <a href= {preview}><img src={preview} alt="preview"></img></a>
       </header>
     </div>
   );
