@@ -8,7 +8,8 @@ function App() {
   const [label, setLabel] = React.useState("");
   const [message, setMessage] = React.useState("");
   const [preview, setPreview] = React.useState("");
-  
+  const [errorMessage, setErrorMessage] = React.useState("");  
+
   const handleSubmit = (event) => {
     console.log(`
       Icon Name: ${iconName}
@@ -24,7 +25,8 @@ function App() {
       var logoName = icon.title.split(" ").join("-");
       var result = baseURL + `${label}-${message}-information?style=flat&logo=${logoName}&logoColor=white&color=${icon.hex}`;
     } else {
-      var result = "Invalid Input. Please check again"    
+      var result = undefined;
+      setErrorMessage("Invalid Input. Check for correct syntax or if the icon exist in Simple Icon");
     }
 
     setPreview(result);
@@ -35,7 +37,10 @@ function App() {
       <header className="App-header">
       {/* TITLE SECTION */}
       <p>
-        Github Badge Generator with Shield.io and Simple Icon
+        Github Badge Generator with 
+        <a href="https://shields.io/" style={{textDecoration: "none"}}> Shield.io </a>
+        and
+        <a href="https://simpleicons.org/" style={{textDecoration: "none"}}> Simple Icon </a>
       </p>
 
       {/* FORM SECTION */}
@@ -80,7 +85,7 @@ function App() {
       </form>
 
       {/* PREVIEW SECTION */}
-      <p>{preview}</p>
+      <p>{preview}{errorMessage}</p>
       <a href= {preview}><img src={preview} alt="preview github badge"></img></a>
       </header>
     </div>
