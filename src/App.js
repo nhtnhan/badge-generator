@@ -46,7 +46,7 @@ function App() {
       {/* FORM SECTION */}
       <form onSubmit={handleSubmit}>
         <label>
-          Icon Name:
+          Icon Name: 
           <input
             name="iconName"
             type="text"
